@@ -208,7 +208,23 @@ ul li {
 
 }
 
- @media screen and (max-width:375px), (min-width:360px){
+
+@media screen and (max-width:600px){
+  .image-container {
+    margin-left: 4em;
+}
+
+.Slack-Name {
+  width: 70%;
+}
+.image-container img {
+  margin-left: 3.2em;
+}
+}
+
+
+
+ @media screen and (max-width:375px), (max-width:360px), (max-width:414px), (max-width:430px){
   .Personnal-biodata{
     flex-direction: column;
   }
