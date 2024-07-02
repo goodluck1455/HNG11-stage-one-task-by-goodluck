@@ -208,7 +208,7 @@ ul li {
 
 }
 
- @media screen and (max-width:375px), (max-width:360px){
+ @media screen and (max-width:375px), (min-width:360px){
   .Personnal-biodata{
     flex-direction: column;
   }
@@ -217,6 +217,10 @@ ul li {
     height: auto;
     margin-bottom: 1em;
   }
+
+  .image-container {
+    margin-left: 0em;
+}
 
   .logo{
       width: 20px;
@@ -234,7 +238,7 @@ ul li {
   }
   .My-Goals-Infor{
     margin-top: 5em;
-    width: 115%;
+    width: 112%;
     margin-left: -2.7em;
   }
 
@@ -255,6 +259,7 @@ ul li {
   }
 
   .Slack-Name {
+    width: 90%;
     font-size: 19px;
   }
 
