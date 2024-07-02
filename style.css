@@ -166,6 +166,13 @@ background-color: #006494;
 
  }
 
+ @media screen and (max-width:912px){
+  .Slack-Email {
+    margin-left: 2em;
+    margin-bottom: 11px;
+}
+ }
+
 
  @media screen and (max-width:820px){
   .image-container img {margin-left: 0.8em;}
