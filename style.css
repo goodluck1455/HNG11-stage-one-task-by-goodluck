@@ -209,7 +209,7 @@ ul li {
 }
 
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
   .image-container {
     margin-left: 4em;
 }
@@ -220,7 +220,7 @@ ul li {
 .image-container img {
   margin-left: 3.2em;
 }
-}
+} */
 
 
 
