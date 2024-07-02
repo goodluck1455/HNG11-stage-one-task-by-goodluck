@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  
+background-color: #006494;
+}
+
+.main-Container {
+    background-color: #0582ca;
+    width: 90%;              
+    /* max-width: 600px;     */
+    margin: 50px auto 0;           
+    /* padding: 20px;            */
+    box-sizing: border-box; 
+    overflow: hidden; 
+    height: 80vh;            
+    /* border: 1px solid black;  */
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .Sub-Main-Container{
+    padding: 20px;
+  }
+
+  .heading{
+    display: flex;
+   justify-content: space-between;
+  }
+  .logo{
+    border: 6px solid white;
+    color: white;
+    display: flex;
+      justify-content: center; 
+      align-items: center;
+      border-radius: 50%; 
+      width: 22px;
+      height: 22px;  
+      padding: 2px; 
+          
+  }
+  .my-G{
+    font-size: 20px;
+  }
+  .Name{
+ 
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .Logo-creation{
+    display: flex;
+    gap: 4px;
+    color: white;
+  }
+
+  .Current-time{
+    color: white;
+    font-weight: bolder;
+  }
+
+  /* nhgfnsdkndlkngds */
+  .Personnal-biodata{
+   display: flex;
+   gap: 20%;
+   padding: 30px;
+  }
+
+  .image-container{
+ margin-top: 4%;
+  }
+
+  .image-container img{
+    border: 10px solid white;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .Slack-Name{
+    /* width: 20%; */
+    color: white;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .My-Goals-Infor{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin-top: -4%;
+  }
+  .Goals-4-Large-screen{
+    display: block;
+  }
+  .Gaols-4-mobile{
+   display: none;
+  }
+
+  .Two-Years-Goals{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 10px;
+  }
+
+  ul li{
+    padding: 7px;
+    position: relative;
+    text-align: justify;
+    list-style: none;
+    margin-left: 8%;
+    font-size: 17px;
+  }
+  ul li::before{
+     content: '•'; /* Custom bullet content */
+      position: absolute;
+      top: -12px;
+      left: -25px; /* Position the bullet to the right */
+      color: #ffb703; /* Custom bullet color */
+      font-size: 50px; 
+  }
+
+ .footer{
+  background-color: rgba(0, 0, 0, 0.3);
+ margin-top: -2.5em;
+ height: 100%;
+ display: flex;
+
+ }
+
+ .Slack-Email{
+  border-left: 2px solid white;
+  padding: 4px;
+  height: 20px;
+  margin-left: 7em;
+  margin-top: 1em;
+  cursor: pointer;
+ }
+ .Slack-Email a{
+  color: white;
+  text-decoration: none;
+  
+ }
+
+
+ @media screen and (min-width:1024px){
+  .main-Container {
+    height: auto;}
+
+    .Personnal-biodata {gap: 4%;}
+
+    .Slack-Email { margin-left: 4em;  margin-bottom: 10px;
+     }
+     .My-Goals-Infor {
+      font-size: 9px;}
+
+ }
+
+
+ @media screen and (max-width:820px){
+  .image-container img {margin-left: 0.8em;}
+  .Slack-Name {
+    width: 44%;}
+ }
+
+ @media screen and (max-width:768px),  (max-width:820px){
+
+  .main-Container {height: auto;}
+
+  .Personnal-biodata{
+    flex-direction: column;
+  }
+
+  .My-Goals-Infor {
+   margin-top: 5%;
+}
+
+ul li {
+    font-size: 21px;
+ }
+
+ .image-container {
+  margin-left: 12em;}
+
+  @media screen and (max-width:768px){
+    .image-container img {margin-left: 0.2em;}
+  }
+  
+
+  .Slack-Name {
+    /* width: 42%; */
+    font-size: 22px;
+}
+
+.Slack-Email {margin-left: 1em;}
+.Current-time {font-size: 20px;}
+
+
+}
+
+ @media screen and (max-width:375px), (max-width:360px){
+  .Personnal-biodata{
+    flex-direction: column;
+  }
+
+  .main-Container{
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  .logo{
+      width: 20px;
+      height: 20px;  
+  }
+  .my-G{
+    font-size: 18px;
+  }
+  .Name{
+    display: none;
+    
+  }
+  .Current-time{
+    margin-top: 10px;
+  }
+  .My-Goals-Infor{
+    margin-top: 5em;
+    width: 115%;
+    margin-left: -2.7em;
+  }
+
+  .Two-Years-Goals{
+    width: 115%;
+    margin-left: -1.8em;
+   margin-bottom: 1em;
+  }
+  ul li {
+    font-size: 20px;
+  }
+  .Sub-Main-Container{
+    padding: 10px;
+  }
+
+  .image-container img {
+    margin-left: 2em;
+  }
+
+  .Slack-Name {
+    font-size: 19px;
+  }
+
+  .Goals-4-Large-screen{
+    display: none;
+  }
+  .Gaols-4-mobile{
+   display: block;
+  }
+
+  .footer {flex-direction: column;}
+  .Slack-Email {
+    border-left: none;
+    margin-left: 0em;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+ }
