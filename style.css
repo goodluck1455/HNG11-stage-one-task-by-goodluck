@@ -221,7 +221,26 @@ ul li {
   margin-left: 3.2em;
 }
 } */
+@media screen and (max-width:540px){
+  .image-container {
+    margin-left: 5em;
+}
+.Slack-Name {
+  width: 58%;
+}
+.footer {
+  flex-direction: column;
+}
 
+.Slack-Email {
+ 
+  text-align: center;
+  border: none;
+}
+
+
+
+}
 
 
  @media screen and (max-width:375px), (max-width:360px), (max-width:414px), (max-width:430px){
